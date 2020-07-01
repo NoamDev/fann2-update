@@ -41,7 +41,6 @@ def find_executable(executable, path=None):
                 fil = os.path.join(pth, execname)
                 if os.path.isfile(fil):
                     return fil
-            break
     else:
         return None
 
